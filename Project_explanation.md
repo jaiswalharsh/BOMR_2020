@@ -22,3 +22,14 @@ Outputs : new occupancy grid, new path
 3) Else compute where it is (regarding to the robot)  
 4) Calcuate new path  
 5) Update and return new occupancy grid and new path  
+
+OR
+
+Inputs : none  
+Outputs : none  
+
+1) Check sensors < threshold  
+2) If nothing, do nothing  
+3) Else, while obstacle detected :
+    a) Compute where it is (regarding to the robot)  
+    b) Change motor speed to avoid it  
