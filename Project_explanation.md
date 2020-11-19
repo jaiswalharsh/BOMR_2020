@@ -28,8 +28,8 @@ OR
 Inputs : none  
 Outputs : none  
 
-1) Check sensors < threshold  
-2) If nothing, do nothing  
-3) Else, while obstacle detected :  
+1) Get sensor value  
+2) If (sensors < threshold), do nothing  
+3) Else, while obstacle is detected :  
     a) Compute where it is (regarding to the robot)  
     b) Change motor speed to avoid it  
